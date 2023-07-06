@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>오르시아</title>
+    <!-- swiper slide css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- 외부스타일시트(직접코딩,css링크 아래) -->
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <!-- 제이쿼리 라이브러리 js중 맨위에 배치 -->
+    <script src="js/jquery-3.6.4.js"></script>
+
+    <!-- swiper slide js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- 외부 제이쿼리 파일(직접코딩,js라이브러리 아래)-->
+    <!-- gsap먼저, scroll은 아래 -->
+    <script src="js/gsap.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- 순서는, 내가 코딩하는것은 아래로 배치해야함 -->
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo_header.png" alt="로고">
+                </a>
+            </div>
+            <div class="menu_area">
+                <nav>
+                    <ul>
+                        <li><a href="#">WEDDING</a></li>
+                        <li><a href="#">FINE JEWELRY</a></li>
+                        <li><a href="#">REVIEW</a></li>
+                        <li><a href="#">ORSIALOG</a></li>
+                        <li><a href="#">HOUSE</a></li>
+                        <li><a href="#">RESERVATITON</a></li>
+                    </ul>
+                </nav>
+                <div class="member">
+                    <ul>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Sign up</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 햄버거 메뉴 -->
+            <div class="ham_menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+        <section class="main">
+            <div class="video-container">
+                <iframe src="https://player.vimeo.com/video/798951393?h=2625235e11&amp;background=1" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="newyork_20.mp4"></iframe>
+            </div>
+            <!-- 태블릿, 모바일 슬라이드 -->
+            <div class="swiper swiper1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide s1">
+                        <a href="#">
+                        </a>
+                    </div>
+                    <div class="swiper-slide s2">
+                        <a href="#"> 
+                        </a>
+                    </div>
+                    <div class="swiper-slide s3">
+                        <a href="#">   
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section class="new">
+            <div class="new_slide">
+                <!-- swiper2뒤에 붙이면, 슬라이드 역순이 됌 dir="rtl" -->
+                <div class="swiper swiper2">
+                    <div class="swiper-wrapper">
+
+                      <div class="swiper-slide">
+                        <a href="#">
+                        <div class="new_img">
+                            <img src="img/banner1.png" alt="배너1"> 
+                        </div> 
+                        </a>
+                        <div class="new_des">
+                            <p>[New Design]<span style="font-size: 20px; margin-left: 5px;"> Nuevo</span></p>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                        <a href="#">
+                        <div class="new_img">
+                            <img src="img/banner2.png" alt="배너2">
+                        </div>
+                        </a>
+                        <div class="new_des">
+                            <p>[New Design]<span style="font-size: 20px; margin-left: 5px;"> Propose Ring</span></p>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                        <a href="#">
+                        <div class="new_img">
+                            <img src="img/banner3.png" alt="배너3">
+                        </div>
+                        </a>
+                        <div class="new_des">
+                            <p>[New Design]<span style="font-size: 20px; margin-left: 5px;"> Chagall & Bella</span></p>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                        <a href="#">
+                        <div class="new_img">
+                            <img src="img/banner4.png" alt="배너4">
+                        </div>
+                        </a>
+                        <div class="new_des">
+                            <p>[New Design]<span style="font-size: 20px; margin-left: 5px;"> Prop114</span></p>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <div class="new_img">
+                                <img src="img/banner5.png" alt="배너5">
+                            </div>
+                            </a>
+                            <div class="new_des">
+                                <p>[New Design] <span style="font-size: 20px; margin-left: 5px;"> Fine Jewelry</span></p>
+                            </div>
+                      </div>
+                    </div>
+                </div>
+            </div>  
+            <div class="new_title">
+                <h1>New Arrivals</h1>
+                <p>I Love You As unique and woenderful<br>  as your love story</p>
+            </div>
+        </section>
+        <section class="fine">
+            <div class="fine_title">
+                <h1>Fine Jewelry</h1>
+                <p>Craftsmanship Marvelously<br> well-made item</p>
+            </div>
+            <div class="fine_slide">
+                <!-- swiper3뒤에 붙이면, 슬라이드 역순이 됌 dir="rtl" -->
+                <div class="swiper swiper3">
+                    <div class="swiper-wrapper">
+
+                      <div class="swiper-slide">
+                        <a href="#">
+                        <div class="fine_img">
+                            <img src="img/banner-ring.jpg" alt="배너1"> 
+                        </div> 
+                        </a>
+                        <div class="fine_des">
+                            <p>Ring</p>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                        <a href="#">
+                        <div class="fine_img">
+                            <img src="img/banner-necklace.jpg" alt="배너2">
+                        </div>
+                        </a>
+                        <div class="fine_des">
+                            <p>Necklace</p>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                        <a href="#">
+                        <div class="fine_img">
+                            <img src="img/banner-earring.jpg" alt="배너3">
+                        </div>
+                        </a>
+                        <div class="fine_des">
+                            <p>Earring</p>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                        <a href="#">
+                        <div class="fine_img">
+                            <img src="img/banner-tiara.jpg" alt="배너4">
+                        </div>
+                        </a>
+                        <div class="fine_des">
+                            <p>Tiara</p>
+                        </div>
+                      </div>
+
+                      
+                    </div>
+                </div>
+            </div>             
+        </section>
+        <section class="banner">
+            <article class="ignite">
+                <div class="fake">
+                    <img src="img/se3_3.png" alt="섹션3">
+                    <div class="banner_txt">
+                        <h2>Ignite</h2>
+                        <h1>Your Dreams</h1>
+                        <p>오르시아는<br>당신의 꿈을 응원합니다</p>
+                    </div>
+                    <div class="banner_img">
+                        <!-- <div class="banner_img1">
+                            <img src="img/se3_3.png" alt="섹션3-1">
+                        </div> 
+                         <div class="banner_img2">
+                            <img src="img/se3_1.jpg" alt="섹션3-2">
+                        </div>
+                    </div> -->
+                </div>    
+            </article>
+    
+            <article class="hello">
+                <div class="banner_txt">
+                    <h2>Hello,</h2>
+                    <h1>My Orsia</h1>
+                    <p>Since 1974</p>
+                </div> 
+                <div class="banner_img">
+                    <div class="banner_img1">
+                        <img src="img/se4_1.jpg" alt="섹션4-1">
+                    </div>
+                    <div class="banner_img2">
+                        <img src="img/se4_2.jpg" alt="섹션4-2">
+                    </div>
+                    <div class="banner_img3">
+                        <img src="img/se4_3.jpg" alt="섹션4-3">
+                    </div>
+                    <div class="banner_img4">
+                        <img src="img/se4_4.jpg" alt="섹션4-4">
+                    </div>
+                </div>
+            </article>
+            <article class="jewelry">
+                <div class="banner_txt">
+                    <h1>Fine your</h1>
+                    <h2>Jewelry</h2>
+                    <p>Romance.Identity.<br>Style.Originality<br>brighter than yesterday   </p>
+                </div>
+                <div class="banner_img">
+                    <div class="banner_img1 ani_img">
+                        <img src="img/se5_2.png" alt="섹션5-1">
+                    </div>
+                    <div class="banner_img2">
+                        <img src="img/se5_1.png" alt="섹션5-2">
+                    </div>
+                    <div class="banner_img3 ani_img">
+                        <img src="img/se5_3.png" alt="섹션5-3">
+                    </div>
+                    <div class="banner_img4 ani_img">
+                        <img src="img/se5_4.png" alt="섹션5-4">
+                    </div>
+                </div>
+
+            </article>
+        </section> <!-- banner -->
+        <section class="library">
+            <div class="library_title">
+                <!-- <span><img src="" alt=""></span> -->
+                <h1>ORSIA’s<br>
+                    Library</h1>
+            </div>
+            <div class="library_photo">
+                <ul>
+                    <li><a href="#">
+                        <img src="img/se6_1.png" alt="ring">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/se6_2.png" alt="ring">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/se6_3.png" alt="ring">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/se6_4.png" alt="ring">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/se6_5.png" alt="ring">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/se6_6.png" alt="ring">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/se6_7.png" alt="ring">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/se6_8.png" alt="ring">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/se6_9.png" alt="ring">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/se6_10.png" alt="ring">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/se6_11.png" alt="ring">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/se6_12.png" alt="ring">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/se6_13.png" alt="ring">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/se6_14.png" alt="ring">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/se6_15.png" alt="ring">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/se6_16.png" alt="ring">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/se6_17.png" alt="ring">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/se6_18.png" alt="ring">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/se6_19.png" alt="ring">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/se6_20.png" alt="ring">
+                    </a></li>
+                </ul>
+            </div>
+        </section>
+        <footer>
+            <div class="company">
+                <div class="footer_logo">
+                    <img src="img/logo_footer_w.png" alt="푸터로고">
+                </div>
+                <div class="info">
+                    <ul>
+                        <li><a href="#">Wedding</a></li>
+                        <li><a href="#">Orsiaglog</a></li>
+                        <li><a href="#">Fine jewelry</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">House</a></li>
+                        <li><a href="#">Review</a></li>
+                        <li><a href="#">Reservation</a></li>
+                    </ul>
+                </div>
+                <div class="add">
+                <address>
+                    서울시 강구 영동대로 644  |  02.542.6344
+                </address>
+                <p>COPYRIGHT © 2023 ORSIA. ALL RIGHTS RESERVED. </p>
+                </div>
+            </div>
+            <div class="sns">
+                    <h3>SNS 바로가기</h3>
+                    <ul>
+                        <li><a href="#">
+                            <img src="img/footer_instagram_icon2.png" alt="인스타아이콘">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="img/footer_twitter_icon2.png" alt="트위터아이콘">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="img/footer_youtube_icon2.png" alt="유튜브아이콘">
+                        </a></li>
+                    </ul>
+            </div>
+            <div class="custom">
+                <h3>고객센터 바로가기</h3>
+                <div class="custom_li">
+                    <ul>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">자주 묻는 질문</a></li>
+                        <li><a href="#">1:1 문의</a></li>
+                        <li><a href="#">카카오톡 친구추가</a></li>
+                    </ul>
+                </div>
+                <div class="tel">
+                    <p><img src="img/footer_call2.png" alt="전화기아이콘"></p>
+                    <p>02-6246-8037</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- 팝업 갤러리(이미지 클릭하면 사진 열림) -->
+    <div class="popup">
+        <div class="container"></div>
+        <div class="close_btn">
+            <a href="#">
+                <!-- <img src="img/ham_x2.png" alt="닫기"> -->
+            </a>    
+        </div>
+    </div>
+</body>
+</html>
